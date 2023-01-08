@@ -1,0 +1,72 @@
+
+h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    color: brown;
+    text-align: center;
+    align-content: center;
+    object-position: center;
+
+}
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 55px;
+    font-weight: bold;
+    color: chocolate;
+    text-align: left;
+    margin: 2px;
+    padding: 5px;
+}
+
+body{
+    display: flexbox;
+    justify-content: center;
+    background-color: cornsilk;
+}
+
+div{
+    display: block;
+    float: left;
+    height: 25%;
+    width: 98%;
+    padding: 5px;
+    margin: auto;
+}
+
+.profile-pic{
+    padding: 0px;
+    margin-left: 100px;
+    margin-right: auto;
+    display: flexbox;
+    border-radius: 2px;
+    width: 50%;
+    height: 50%;
+    clip-path: circle();
+    object-fit: fill;
+}
+
+.profile-def{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    clear: both;
+}
+
+.profile-text{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flexbox;
+    align-content: flex-start;
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-justify:auto;
+    text-align: justify;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    
+
+}
