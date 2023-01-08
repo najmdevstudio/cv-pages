@@ -38,7 +38,7 @@ div{
 .profile-pic{
     padding: 0px;
     margin-left: 100px;
-    margin-right: auto;
+    margin-right: 30px;
     display: flexbox;
     border-radius: 2px;
     width: 50%;
