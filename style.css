@@ -52,6 +52,7 @@ div{
     flex-direction: row;
     align-items: flex-start;
     clear: both;
+    flex-grow: wrap;
 }
 
 .profile-text{
